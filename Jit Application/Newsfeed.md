@@ -1,0 +1,3 @@
+- Will get the logged on users followees tweets.
+- The latest tweet for each followed user will be returned
+- 

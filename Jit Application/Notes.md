@@ -1,0 +1,2 @@
+Benefits of using `[HttpPost("follow/{followeeId:guid}")]`:
+- Type validation occurs at the **routing level**. If a valid guid is not passed, a *404 error* will be returned. This avoids unnecessary validation in our code.

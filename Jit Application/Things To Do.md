@@ -20,7 +20,7 @@ Clicking on a users profile will show you all their jits
 	- Get newsfeed
 
 
-[**Relationship Endpoint**](obsidian://open?vault=Notes&file=JitAPI%2FRelationship%20Table)
+[**UserFollows**](obsidian://open?vault=Notes&file=JitAPI%2FRelationship%20Table)
 Endpoint to manage relationships between users
 *Requirements*
 1. User must be logged in
@@ -31,3 +31,9 @@ Endpoint to manage relationships between users
 	- Allow logged in user to stop following another user.
 - Request
 	- If **Follow** is not successful, then request a follow.
+
+**Newfeed**
+*Requirements*
+- User must be logged in
+
+*Get the entire newsfeed* : `POST: /newsfeed/`

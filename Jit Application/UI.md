@@ -1,0 +1,1 @@
+Angular seems to be the best option for this project. 
